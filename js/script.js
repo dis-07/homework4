@@ -10,7 +10,18 @@
 
 ////////////////// Task #1
 
-// const array = [2, 18, 33, 40, 1, 0, -3, 10];
+const array = [2, 18, 33, 40, 1, 0, -3, 10];
+
+let sum = 0;
+const length = array.length;
+
+for (let i = 0; i < array.length; i++) {
+
+    sum += array[i];
+}
+let getAverage = sum / length;
+console.log(getAverage);
+
 
 
 // const getAverage = (array) => {
@@ -100,14 +111,14 @@
 ///////////////////     Task #6  это решение немного подсмотрел )
 
 
-// let data = {};
+// let obj = {};
 
 
-// function isEmpty(data) {
-//     for (let key in data) {
+// function isEmpty(obj) {
+//     for (let key in obj) {
 //         return false;
 //     }
 //     return true;
 // };
 
-// console.log(isEmpty(data));
+// console.log(isEmpty(obj));
