@@ -10,17 +10,17 @@
 
 ////////////////// Task #1
 
-const array = [2, 18, 33, 40, 1, 0, -3, 10];
+// const array = [2, 18, 33, 40, 1, 0, -3, 10];
 
-let sum = 0;
-const length = array.length;
+// let sum = 0;
+// const length = array.length;
 
-for (let i = 0; i < array.length; i++) {
+// for (let i = 0; i < array.length; i++) {
 
-    sum += array[i];
-}
-let getAverage = sum / length;
-console.log(getAverage);
+//     sum += array[i];
+// }
+// let getAverage = sum / length;
+// console.log(getAverage);
 
 
 
@@ -51,8 +51,15 @@ console.log(getAverage);
 
 // let array = [2, 'olol', 3, 10, true, null, 11, '100'];
 
-// console.log(array.typeof(Number));
+let array = [2,14,10]
 
+let sum = 0;
+
+for (let i = 0; i < array.length; i++) {
+    if(array === typeof Number){};
+    sum += array[i];
+}
+console.log(sum);
 
 ////////////////
 
