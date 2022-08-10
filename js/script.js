@@ -46,18 +46,17 @@
 //////////////////////////////////
 
 
-/////////////////   Task #2
+/////////////////   Task #2 понял спасибо.
 
 
-// let array = [2, 'olol', 3, 10, true, null, 11, '100'];
-
-let array = [2,14,10]
+let array = [2, 'olol', 3, 10, true, null, 11, '100'];
 
 let sum = 0;
 
 for (let i = 0; i < array.length; i++) {
-    if(array === typeof Number){};
-    sum += array[i];
+    if(typeof array[i] === 'number')
+
+    sum = sum + array[i]
 }
 console.log(sum);
 
